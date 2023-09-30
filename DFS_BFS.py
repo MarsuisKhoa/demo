@@ -27,7 +27,7 @@ def bfs(u):
 
 def dfs(u):
     print(u)
-    visited[u] = True
+    visited[u] = True #la sao z
 
     for x in ke[u]:
         if not visited[x]:
